@@ -76,6 +76,8 @@ GROUP BY p.category
 **Результаты:**
 ![image](https://github.com/user-attachments/assets/467a9ca0-b1a5-4c0b-8b1c-69bb1c24f373)
 
+Наиболее перспективными являются категории с/к и в/к колбас, работа с которыми позволит улучшить и расширить ассортимент в этом сегменте.
+
 5. **Средний чек** Надо записать SQL-запрос, который вычисляет средний чек (средняя сумма покупки) за последний месяц.
 ```sql
 SELECT CAST(AVG(amount) AS DECIMAL(10, 2)) AS avg_check FROM sales
@@ -84,5 +86,6 @@ WHERE MONTH(sale_date) = 11 AND YEAR(sale_date) = 2024
 **Результаты:**
 ![image](https://github.com/user-attachments/assets/593532a1-bea4-49af-a86e-bc1a271c18bc)
 
+**Средний сек** за последний месяц - 5730744.34 ₽
 
 
